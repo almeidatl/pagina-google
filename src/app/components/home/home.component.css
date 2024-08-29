@@ -1,0 +1,67 @@
+:root {
+  --textColor: #4caf50;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #4caf50;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header a:hover {
+  color: #18521b;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+#logo-google {
+  font-size: 4rem;
+  color: #4caf50;
+  margin: 0;
+}
+.input-field {
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 4rem;
+  padding: 0.5rem;
+}
+
+.search-container-btn {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #18521b;
+  transition: background-color 0.3s ease-in-out;
+}
