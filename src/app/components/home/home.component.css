@@ -67,3 +67,13 @@ a {
   background-color: #18521b;
   transition: background-color 0.3s ease-in-out;
 }
+
+footer{
+  width: 100%;
+  padding: .5rem;
+  background-color: #1077133f;
+  color: #fff;
+  text-align: center;
+  position:fixed ;
+  bottom: 0;
+}
